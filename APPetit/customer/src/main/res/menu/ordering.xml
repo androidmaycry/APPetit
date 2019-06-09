@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_custom_button"
+        android:title="Custom Button"
+        android:icon="@drawable/ic_shopping_cart"
+        app:actionLayout="@layout/icon_cart"
+        app:showAsAction="always" />
+</menu>

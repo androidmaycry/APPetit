@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">APPetit</string>
+    <string name="title_home">Home</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_dailyoffer">Daily Offer</string>
+    <string name="title_reservation">Reservation</string>
+
+    <string name="time">Reservation time:</string>
+    <string name="set_price">Set price</string>
+    <string name="point_symbol">.</string>
+    <string name="euro_symbol">€</string>
+    <string name="quantity">Available quantity</string>
+
+    <string name="facebook_app_id">368341310697307</string>
+    <string name="fb_login_protocol_scheme">fb368341310697307</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

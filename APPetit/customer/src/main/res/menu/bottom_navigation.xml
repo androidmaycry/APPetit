@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/navigation_restaurant"
+        android:title="Restaurant" />
+
+    <item
+        android:id="@+id/navigation_reservation"
+        android:icon="@drawable/navigation_reservation"
+        android:title="Orders" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/navigation_profile"
+        android:title="Profile" />
+
+</menu>

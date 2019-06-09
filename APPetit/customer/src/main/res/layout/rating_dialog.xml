@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:background="@drawable/rounded_rectangle">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/dialog_rating_icon"
+            android:layout_width="100dp"
+            android:src="@drawable/restaurant_home"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/dialog_rating_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dialog_rating_icon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="Order delivered, rate your experience!"
+            android:textSize="20sp" />
+
+        <com.hsalf.smilerating.SmileRating
+            android:id="@+id/dialog_rating_rating_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dialog_rating_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:numStars="5"
+            android:stepSize="1" />
+
+        <TextView
+            android:id="@+id/dialog_rating_titlefeedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dialog_rating_rating_bar"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="Leave a comment!"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/dialog_rating_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/dialog_rating_rating_bar"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="95dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/edittext_background"
+            android:gravity="top|left"
+            android:inputType="textMultiLine|textCapSentences"
+            android:lines="8"
+            android:maxLines="10"
+            android:minLines="6"
+            android:padding="10dp"
+            android:scrollbars="vertical"
+            android:textColorHint="@color/grey_400" />
+
+
+        <LinearLayout
+            android:id="@+id/dialog_rating_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dialog_rating_rating_bar"
+            android:layout_marginTop="210dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/dialog_rating_button_negative"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:text="Not now"
+                android:gravity="center"
+                android:padding="15dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/dialog_rating_button_positive"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:text="Confirm"
+                android:gravity="center"
+                android:padding="15dp"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>

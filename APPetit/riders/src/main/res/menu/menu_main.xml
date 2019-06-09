@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/add"
+        android:title="Edit Profile"
+        android:icon="@drawable/modify"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/edit_password"
+        android:title="Edit Password"
+        android:icon="@drawable/ic_vpn_key_black_24dp"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        app:showAsAction="always"/>
+
+
+</menu>

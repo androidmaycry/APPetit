@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/near_rider"
+        android:title="nearest"
+        android:icon="@drawable/automatic_choice_rider"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/list_riders"
+        android:title="List"
+        android:icon="@drawable/showlist_map"
+        app:showAsAction="always"/>
+
+</menu>
